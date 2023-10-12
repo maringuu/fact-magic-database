@@ -6,10 +6,9 @@ and deletes all the code and just keeps the magic definitions (despite
 Thus this repository is also licensed under the GPLv3.
 
 ## Installation
-Run `make` to create a compiled mime database `fact.mgc`.
-Alternatively you can head over to the
-[releases](https://github.com/maringuu/fact-mime-database/releases) and download
-the compiled database from there.
+Run `make` to create a compiled mime database `firmware.mgc`.
+Alternatively you can head over to the [releases][releases] and download the
+compiled database from there.
 
 For example you can put this in the directory shown by `file -v` to make use of
 it when using the standart unix `file` tool.
@@ -17,3 +16,4 @@ it when using the standart unix `file` tool.
 
 [fact_helper_file]: https://github.com/fkie-cad/fact_helper_file/commit/17065a2d81bfdebd3425427eefaca9857087c763
 [custom_mime_internal]: https://github.com/fkie-cad/fact_helper_file/blob/17065a2d81bfdebd3425427eefaca9857087c763/fact_helper_file/mime/custom_mime_internal
+[releases]: https://github.com/maringuu/firmware-magic-database/releases

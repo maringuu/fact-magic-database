@@ -1,11 +1,11 @@
-all: fact.mgc
+all: firmware.mgc
 
-fact.mgc: fact
-	file -C -m fact
+firmware.mgc: firmware
+	file -C -m firmware
 
-fact:
-	cat mime/* > fact
+firmware:
+	cat mime/* > firmware
 
 clean:
-	rm -f fact
-	rm -f fact.mgc
+	rm -f firmware
+	rm -f firmware.mgc

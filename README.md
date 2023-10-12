@@ -1,4 +1,4 @@
-# A maigc database for FACT
+# A maigc database for firmware analysis
 This repository contains magic definitions for filetypes commonly found in firmwares.
 This is a fork of [fact\_helper\_file][fact_helper_file]
 and deletes all the code and just keeps the magic definitions (despite

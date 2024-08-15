@@ -1,3 +1,5 @@
+> Moved to https://github.com/fkie-cad/firmware-magic-database
+
 # A maigc database for firmware analysis
 This repository contains magic definitions for filetypes commonly found in firmwares.
 This is a fork of [fact\_helper\_file][fact_helper_file]
